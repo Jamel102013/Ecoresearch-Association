@@ -198,5 +198,11 @@ h3 { font-size: 1.22rem; }
  display: block;
 margin: 0 auto 20px;
 width: 80px;
-height: auto;
+height: 80px;
+  object-fit: contain;
 } 
+.brand {
+display: flex;
+align-items: center;
+gap: 10px;
+}
