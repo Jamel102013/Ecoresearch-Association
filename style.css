@@ -91,7 +91,7 @@ img { max-width: 100%; display: block; }
 .eyebrow { color: var(--green-600); font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.78rem; margin-bottom: 14px; }
 .eyebrow.light { color: #9ff3cc; }
 h1, h2, h3 { line-height: 1.15; margin: 0 0 18px; letter-spacing: -0.04em; }
-h1 { font-size: clamp(2.7rem, 7vw, 5.3rem); max-width: 850px; color: var(--blue-900); }
+h1 { font-size: clamp(2rem, 4vw, 3.2rem); max-width: 850px; color: var(--blue-900); }
 h2 { font-size: clamp(2rem, 4vw, 3rem); color: var(--blue-900); }
 .bg-dark h2, .bg-dark h3 { color: var(--white); }
 h3 { font-size: 1.22rem; }
