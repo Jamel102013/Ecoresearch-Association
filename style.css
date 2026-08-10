@@ -194,15 +194,4 @@ h3 { font-size: 1.22rem; }
   .hero-card, .contact-form, .event-card { padding: 24px; }
   .footer-bottom { flex-direction: column; }
 }
-.logo {
- display: block;
-margin: 0 auto 20px;
-width: 80px;
-height: 80px;
-  object-fit: contain;
-} 
-.brand {
-display: flex;
-align-items: center;
-gap: 10px;
-}
+
