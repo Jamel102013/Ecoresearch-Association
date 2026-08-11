@@ -74,7 +74,7 @@ min-height: 70vh;
   display: grid;
   align-items: start;
   justify-content: center;
-  padding: 40px 0 60px;
+  padding: 20px 0 60px;
   background:
     radial-gradient(circle at 80% 10%, rgba(14, 159, 110, 0.14), transparent 35%),
     radial-gradient(circle at 10% 20%, rgba(7, 55, 99, 0.12), transparent 34%),
