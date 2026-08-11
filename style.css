@@ -13,7 +13,7 @@
   --radius: 24px;
 }
 .hero {
-min-height: 100vh;
+min-height: auto;
 background: #ffffff;
 display: flex;
 align-items: center;
@@ -79,9 +79,10 @@ img { max-width: 100%;
 .nav-toggle span { display: block; height: 2px; width: 24px; background: var(--blue-900); margin: 6px auto; transition: 0.2s ease; }
 
 .hero {
- min-height: calc(100vh - 76px);
+min-height: auto;
   display: grid;
-  align-items: center;
+  align-items: start;
+  padding: 40px 0 60px;
   background:
     radial-gradient(circle at 80% 10%, rgba(14, 159, 110, 0.14), transparent 35%),
     radial-gradient(circle at 10% 20%, rgba(7, 55, 99, 0.12), transparent 34%),
