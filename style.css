@@ -188,3 +188,34 @@ h3 { font-size: 1.22rem; }
   .footer-bottom { flex-direction: column; }
 }
 
+.footer{
+background:#0b1f3a;
+color:white;
+padding:30px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+.footer-brand{
+display:flex;
+align-items:center;
+gap:15px;
+}
+.footer-logo{
+height:65px;
+}
+.footer-brand h4{
+margin:0;
+color:white;
+font-size:18px;
+}
+.footer-brand p{
+margin:3px 0 0;
+font-size:13px;
+color:#cbd5e1;
+}
+.footer-copy{
+font-size:13px;
+color:#cbd5e1;
+}
