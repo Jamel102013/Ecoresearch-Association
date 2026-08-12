@@ -246,3 +246,12 @@ color:#666;
 .hero-content{
     max-width:100%;
 }
+.hero-africa-image{
+    width:100%;
+    max-width:650px;
+    height:auto;
+    display:block;
+    margin:0 auto 25px auto;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+}
