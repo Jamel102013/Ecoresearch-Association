@@ -81,6 +81,14 @@ min-height: 70vh;
     linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
 }
 .hero-grid { display: grid; grid-template-columns: 55% 45%; gap: 40px; align-items: center; }
+.hero-content{
+    grid-column:1;
+}
+.hero-card{
+grid-column:2;
+margin-top:0;
+align-self:start;
+}
 .eyebrow { color: var(--green-600); font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.78rem; margin-bottom: 14px; }
 .eyebrow.light { color: #9ff3cc; }
 h1, h2, h3 { line-height: 1.15; margin: 0 0 18px; letter-spacing: -0.04em; }
