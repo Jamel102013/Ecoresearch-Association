@@ -47,7 +47,7 @@ img { max-width: 100%;
   justify-content: space-between;
   gap: 24px;
 }
-
+ 
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; color: var(--blue-900); }
 .brand-mark {
   width: 44px;
