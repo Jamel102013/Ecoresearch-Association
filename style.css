@@ -328,3 +328,40 @@ color:#666;
   display: block;
   margin: 0; /* Élimine tout décalage */
 }
+/* --- HABILLAGE ET SUPPRESSION DU VIDE LATÉRAL (STYLE INSTITUTIONNEL) --- */
+
+/* 1. Application des reflets sur la section principale About */
+#About {
+  background-image: 
+    radial-gradient(circle at 3% 20%, rgba(14, 159, 110, 0.05) 0%, transparent 35%),
+    radial-gradient(circle at 97% 80%, rgba(6, 42, 79, 0.04) 0%, transparent 35%);
+  background-repeat: no-repeat;
+}
+
+/* 2. Application sur la section Expertise (Déjà configurée avec var(--soft)) */
+#Research {
+  background-color: var(--soft);
+  background-image: 
+    radial-gradient(circle at 5% 50%, rgba(6, 42, 79, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 95% 30%, rgba(14, 159, 110, 0.05) 0%, transparent 40%);
+  background-repeat: no-repeat;
+}
+
+/* 3. Application sur la section Publications */
+#publications {
+  background-image: 
+    radial-gradient(circle at 4% 70%, rgba(14, 159, 110, 0.04) 0%, transparent 35%),
+    radial-gradient(circle at 96% 20%, rgba(6, 42, 79, 0.05) 0%, transparent 35%);
+  background-repeat: no-repeat;
+}
+
+/* 4. Amélioration du confort intérieur des cartes pour occuper l'espace */
+.feature-card, .news-card {
+  padding: 34px 28px !important; /* Rend les boîtes plus généreuses */
+  box-shadow: 0 4px 20px rgba(6, 42, 79, 0.02); /* Ombre douce imperceptible */
+}
+
+/* 5. Espacement accru des grilles de cartes */
+.cards-grid, .news-grid {
+  gap: 30px !important; /* Éloigne légèrement les cartes pour combler le centre */
+}
